@@ -50,17 +50,17 @@ body::after{
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
 }
 :focus-visible{outline:2px solid var(--oxblood);outline-offset:3px}
-body.is-file :focus-visible{outline-color:var(--olive)}
+body.is-file :focus-visible{outline-color:var(--sky)}
 
 /* ============================ MASTHEAD ============================ */
 .masthead{position:sticky;top:0;z-index:200;background:var(--sky);border-bottom:2px solid var(--ink);transition:background .45s ease,color .45s ease}
-body.is-file .masthead{background:var(--desk-2);color:var(--paper);border-bottom-color:var(--olive)}
+body.is-file .masthead{background:var(--desk-2);color:var(--paper);border-bottom-color:var(--sky)}
 .line{max-width:var(--wrap);margin:0 auto;padding:0 22px;display:flex;align-items:center;gap:16px}
 .line--1{justify-content:space-between;min-height:38px;border-bottom:var(--rule);font-family:var(--f-mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase}
 body.is-file .line--1{border-bottom-color:rgba(237,231,219,.25)}
 .line--1 b{font-weight:600}
 .line--1 .stamp{color:var(--oxblood)}
-body.is-file .line--1 .stamp{color:var(--olive)}
+body.is-file .line--1 .stamp{color:var(--sky)}
 .line--2{min-height:46px;gap:2px;flex-wrap:wrap}
 .tab{
   font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
@@ -70,7 +70,7 @@ body.is-file .line--1 .stamp{color:var(--olive)}
 .tab:hover{background:rgba(20,17,14,.07)}
 body.is-file .tab:hover{background:rgba(237,231,219,.12)}
 .tab[aria-current="page"]{background:var(--paper);border-color:var(--ink);color:var(--ink);font-weight:600}
-body.is-file .tab[aria-current="page"]{border-color:var(--olive)}
+body.is-file .tab[aria-current="page"]{border-color:var(--sky)}
 
 /* ============================ PAGES ============================ */
 .page{display:none;animation:rise .45s cubic-bezier(.2,.7,.3,1) both}
@@ -169,7 +169,7 @@ body.is-file .tab[aria-current="page"]{border-color:var(--olive)}
 .flag{background:var(--oxblood);color:var(--paper);padding:34px 34px 30px;margin:0 0 8px}
 .flag .kicker{color:rgba(237,231,219,.75);margin-bottom:12px}
 .flag h3{font-family:var(--f-slab);font-weight:400;text-transform:uppercase;font-size:clamp(1.5rem,4.4vw,2.5rem);line-height:.98;margin:0;max-width:22ch}
-.flag h3 span{color:var(--olive)}
+.flag h3 span{color:var(--sky)}
 .flag p{max-width:62ch;line-height:1.6;font-size:15px;margin:16px 0 0;color:rgba(237,231,219,.9)}
 .flag .figs{display:flex;gap:38px;flex-wrap:wrap;margin-top:24px;border-top:1px solid rgba(237,231,219,.3);padding-top:18px}
 .flag .figs div{min-width:96px}
